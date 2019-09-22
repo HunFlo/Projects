@@ -1,0 +1,11 @@
+anforderungen an eigenes Projekt:
+
+1. Es muss ein Ordner und ein File erstellt werden bevor ein weiteres Fenster geöffnet werden kann.
+2. Ordner besteht aus Name und Nummer.
+3. Das File hat den gleichen Namen wie der Ordner.
+4. Namen und Nummer werden getrennt voneinander abgefragt.
+5. Falls dieser Name schon bestehen sollte wird eine Fehlermeldung ausgegeben.
+6. Ein weiteres Fenster muss geöffnet werden können um Buchungen absolvieren zu können.
+7. Buchungen werden alle in das File geschrieben
+8. Alle Buchungen werden nach einem System (Soll, Haben, Betrag) aufgeschrieben.
+

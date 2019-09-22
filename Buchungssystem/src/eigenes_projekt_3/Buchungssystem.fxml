@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eigenes_projekt_3.BuchungssystemController">
+   <children>
+      <Label layoutX="172.0" layoutY="31.0" text="Buchungssystem">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Button fx:id="BuchenButton" layoutX="505.0" layoutY="338.0" mnemonicParsing="false" onAction="#Buchenbutton" text="Buchen" />
+      <TextField fx:id="SollText" layoutX="23.0" layoutY="174.0" onAction="#SollText" />
+      <TextField fx:id="HabenText" layoutX="412.0" layoutY="174.0" onAction="#HabenText" />
+      <Label layoutX="412.0" layoutY="148.0" text="Haben">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="144.0" text="Soll">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="CancelButton" layoutX="26.0" layoutY="344.0" mnemonicParsing="false" onAction="#CancelButton" text="Cancel" />
+   </children>
+</AnchorPane>

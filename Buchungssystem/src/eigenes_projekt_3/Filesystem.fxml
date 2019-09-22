@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="250.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eigenes_projekt_3.Filesystem">
+   <children>
+      <Label layoutX="113.0" layoutY="124.0" text="Filenummer">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="113.0" layoutY="86.0" text="Filename">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="18.0" text="Filesystem">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Spinner fx:id="Spinner" layoutX="200.0" layoutY="121.0" prefHeight="26.0" prefWidth="136.0" />
+      <TextField fx:id="Filename" layoutX="200.0" layoutY="84.0" onAction="#Fillename" />
+      <Button fx:id="Confirm" layoutX="326.0" layoutY="210.0" mnemonicParsing="false" onAction="#Confirm" text="Confirm" />
+      <Button fx:id="Cancel" layoutX="14.0" layoutY="210.0" mnemonicParsing="false" onAction="#Cancel" text="Cancel" />
+   </children>
+</AnchorPane>
